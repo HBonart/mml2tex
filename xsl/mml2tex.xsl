@@ -44,7 +44,7 @@
   </xsl:template>
   
   <!-- only process text content -->
-  <xsl:template match="mtext|mlabeledtr|maction|mrow|merror|mpadded" mode="mathml2tex">
+  <xsl:template match="mtext|mlabeledtr|maction|merror|mpadded" mode="mathml2tex">
     <xsl:apply-templates mode="#current"/>
   </xsl:template>
 
@@ -227,6 +227,12 @@
     <xsl:apply-templates select="*[2]" mode="#current"/>
     <xsl:text>}^{</xsl:text>
     <xsl:apply-templates select="*[3]" mode="#current"/>
+    <xsl:text>}</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="mrow" mode="mathml2tex">
+    <xsl:text>{</xsl:text>
+    <xsl:apply-templates select="*" mode="#current"/>
     <xsl:text>}</xsl:text>
   </xsl:template>
 
