@@ -305,8 +305,9 @@
 
   <xsl:template match="text()" mode="mathml2tex">
     <xsl:variable name="text" select="normalize-space(.)" as="xs:string"/>
+
     <xsl:choose>
-      <xsl:when test="../self::mi[@mathvariant = 'normal'][$text = $mml2tex:operator-names]">
+      <xsl:when test="$text = $mml2tex:operator-names">
         <xsl:text>\</xsl:text>
         <xsl:value-of select="$text"/>
         <xsl:text> </xsl:text>
