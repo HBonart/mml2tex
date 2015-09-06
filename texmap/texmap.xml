@@ -197,8 +197,8 @@
     <tex>\\delta</tex>
   </symbol>
   <symbol>
-    <hex>ε</hex>
-    <tex>\\varepsilon</tex>
+    <hex>&#x3b5;</hex>
+    <tex>\\epsilon</tex>
   </symbol>
   <symbol>
     <hex>ζ</hex>
@@ -210,7 +210,7 @@
   </symbol>
   <symbol>
     <hex>θ</hex>
-    <tex>\\vartheta</tex>
+    <tex>\\theta</tex>
   </symbol>
   <symbol>
     <hex>ι</hex>
@@ -246,11 +246,11 @@
   </symbol>
   <symbol>
     <hex>ρ</hex>
-    <tex>\\varrho</tex>
+    <tex>\\rho</tex>
   </symbol>
   <symbol>
     <hex>ς</hex>
-    <tex>\\varsigma</tex>
+    <tex>\\sigma</tex>
   </symbol>
   <symbol>
     <hex>σ</hex>
@@ -266,7 +266,7 @@
   </symbol>
   <symbol>
     <hex>φ</hex>
-    <tex>\\varphi</tex>
+    <tex>\\phi</tex>
   </symbol>
   <symbol>
     <hex>χ</hex>
@@ -293,7 +293,7 @@
   </symbol>
   <symbol>
     <hex>ɸ</hex>
-    <tex>\\varphi</tex>
+    <tex>\\phi</tex>
   </symbol>
   <!--  *
         * other symbols
@@ -1193,5 +1193,9 @@
   <symbol>
     <hex>&#xB7;</hex>
     <tex>\\cdot</tex>
+  </symbol>
+  <symbol>
+	  <hex>&#x3f5;</hex>
+	  <tex>\\epsiv</tex>
   </symbol>
 </symbols>
