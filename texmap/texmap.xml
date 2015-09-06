@@ -1187,7 +1187,11 @@
     <tex>\\}</tex>
   </symbol>
   <symbol>
-    <hex>&#x02146;</hex>
-	<tex>\\mathrm{d}</tex>
+    <hex>ⅆ</hex>
+    <tex>\\mathrm{d}</tex>
+  </symbol>
+  <symbol>
+    <hex>&#xB7;</hex>
+    <tex>\\cdot</tex>
   </symbol>
 </symbols>
