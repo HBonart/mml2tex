@@ -90,10 +90,6 @@
     <tex>\\Gamma</tex>
   </symbol>
   <symbol>
-    <hex>Δ</hex>
-    <tex>\\Delta</tex>
-  </symbol>
-  <symbol>
     <hex>Ε</hex>
     <tex>\\Epsilon</tex>
   </symbol>
@@ -409,10 +405,6 @@
   <symbol>
     <hex>∅</hex>
     <tex>\\set</tex>
-  </symbol>
-  <symbol>
-    <hex>∆</hex>
-    <tex>\\Delta</tex>
   </symbol>
   <symbol>
     <hex>∇</hex>
@@ -1197,5 +1189,9 @@
   <symbol>
 	  <hex>&#x3f5;</hex>
 	  <tex>\\epsiv</tex>
+  </symbol>
+  <symbol>
+	  <hex>&#x394;</hex>
+	  <tex>\\Delta</tex>
   </symbol>
 </symbols>
